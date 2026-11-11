@@ -38,7 +38,7 @@ include(CheckTypeSize)
 include(FetchContent)
 set(CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/cmake" "${CMAKE_MODULE_PATH}")
 
-find_package(Git REQUIRED)
+find_package(Git QUIET)
 include(GitInfo)
 
 message(STATUS "GIT_REVISION: ${GIT_REVISION}")
