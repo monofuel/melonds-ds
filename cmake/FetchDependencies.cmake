@@ -41,7 +41,7 @@ function(fetch_dependency name default_url default_tag)
     FetchContent_GetProperties(${name})
 endfunction()
 
-fetch_dependency(melonDS "https://github.com/monofuel/melonDS" "4d22164dc9843fd1ef8f3e87b4782463b39b9f39")
+fetch_dependency(melonDS "https://github.com/monofuel/melonDS" "b15171a362341432ae74b0dba5985fb98d56d31a")
 fetch_dependency(libretro-common "https://github.com/libretro/libretro-common" "fa8a1b5")
 fetch_dependency("embed-binaries" "https://github.com/andoalon/embed-binaries" "078b62b")
 fetch_dependency(glm "https://github.com/g-truc/glm" "6f14f47")
